@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revelación de sexo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Sección 1: Bienvenida -->
+  <section id="bienvenida" class="seccion activa">
+    <div class="contenido">
+      <h1>Bienvenidos a la revelación más importante de nuestras vidas</h1>
+      <p>¿Estás listo para descubrirla con nosotros?</p>
+      <button id="btn-empezar">Empecemos</button>
+    </div>
+  </section>
+
+  <!-- Sección 2: Galería -->
+  <section id="galeria" class="seccion">
+    <h2>Nuestros primeros momentos...</h2>
+    <div class="imagenes">
+  <img src="assets/images/galeria/foto1.jpg" alt="Foto 1 de bebé">
+  <img src="assets/images/galeria/foto2.jpg" alt="Foto 2 de bebé">
+  <img src="assets/images/galeria/foto3.jpg" alt="Foto 3 de bebé">
+  <img src="assets/images/galeria/foto4.jpg" alt="Foto 4 de bebé">
+  <img src="assets/images/galeria/foto5.jpg" alt="Foto 5 de bebé">
+</div>
+
+
+    <!-- Texto dinámico debajo de las fotos -->
+    <div id="texto-presentacion" style="margin-top: 30px; font-size: 1.3em; min-height: 60px; color: #555; font-style: italic;"></div>
+
+    <button id="btn-ver-video" disabled>Ver video</button>
+  </section>
+
+  <!-- Sección 3: Video -->
+  <section id="video" class="seccion">
+    <video id="video-bebe" controls>
+      <source src="assets/video/video.mp4" type="video/mp4" />
+      Tu navegador no soporta video HTML5.
+    </video>
+  </section>
+
+  <!-- Sección 4: Nombre final -->
+  <section id="final" class="seccion final">
+    <div class="foto-final">
+     <h2 class="titulo-final">
+        <span>¡</span> <span>S</span><span>o</span><span>y</span> <span>n</span><span>i</span><span>ñ</span><span>a</span>!
+     </h2>
+
+      <img src="assets/images/foto-final.jpg" alt="Foto de la bebé" />
+      <h2 class="nombre">Amira</h2>
+    </div>
+  </section>
+
+  <!-- Audio: música y narración -->
+  <audio id="musica" src="assets/audio/musica.mp3" loop></audio>
+  <audio id="narracion" src="assets/audio/narracion.mp3"></audio>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
